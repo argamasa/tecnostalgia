@@ -2,14 +2,23 @@
 body {
   background: #0000ff;
   color:#FFD700;
-  font-family: helvetica, arial, sans-serif;
+  /*font-family: helvetica, arial, sans-serif;*/
   font-style:normal;
   max-width: 80%;
-  letter-spacing: -0.0125rem;
+  /*letter-spacing: -0.0125rem;*/
+}
+
+pre{
+  max-width: 80%;
+}
+
+img{
+  max-width: 80%;
+  max-height: 50%;
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 1vw;
 }
 
 p{
@@ -26,236 +35,144 @@ a:link {
   a:hover {
   color:#FFD700;
   }
-
+/*
+  #chk {
+    position: absolute;
+    visibility: hidden;
+  }
   
-#O0 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, blue;
-}
-
-#A0 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  display: none;
+  #A {
+    display: none;
   }
-
-#O0:hover #A1 {
-  display: block;
-}
-
-
-#O1 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, blue;
-}
-
-#A1 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  display: none;
+  
+  #chk:checked~#A {
+    display: block;
   }
-
-#O1:hover #A1 {
-  display: block;
-}
-
-
-#O2 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, blue;
+  #chk2:checked~ * h1 {
+    color: peru;
+  }
+  */
+#chk2 {
+  position: absolute;
+  visibility: hidden;
 }
 
 #A2 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
   display: none;
-  }
-
-#O2:hover #A2 {
-  display: block;
 }
 
 
-#O3 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, whitesmoke;
+
+#chk2:checked~#A2 {
+  display: block;
+}
+#chk2:checked~ * h1 {
+  color: whitesmoke;
+}
+
+
+
+#chk3 {
+  position: absolute;
+  visibility: hidden;
 }
 
 #A3 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  width: 50%;
-  display: none;
-  }
-
-#O3:hover #A3 {
-  display: block;
-}
-
-#O4 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  width: 50%;
-  text-decoration: underline, whitesmoke;
-}
-
-#A4 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  font-size: 10px;
   display: none;
 }
 
-#O4:hover #A4 {
+#chk3:checked~#A3 {
   display: block;
+}
+#chk3:checked~ * h1 {
+  color: whitesmoke;
 }
 
 
-#O5 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  max-width: 80%;
-  text-decoration: underline, whitesmoke;
+#chk4 {
+  position: absolute;
+  visibility: hidden;
+}
+
+#A4{
+  display: none;
+}
+
+#chk4:checked~#A4 {
+  display: block;
+}
+#chk4:checked~ * h1 {
+  color: whitesmoke;
+}
+
+
+
+#chk5 {
+  position: absolute;
+  visibility: hidden;
 }
 
 #A5 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
   display: none;
-  }
+}
 
-#O5:hover #A5 {
+#chk5:checked~#A5 {
   display: block;
+}
+#chk5:checked~ * h1 {
+  color: whitesmoke;
 }
 
 
-#O6 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, whitesmoke;
+
+#chk6 {
+  position: absolute;
+  visibility: hidden;
 }
 
 #A6 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
   display: none;
-  }
+}
 
-#O6:hover #A6 {
+#chk6:checked~#A6 {
   display: block;
+}
+#chk6:checked~ * h1 {
+  color: whitesmoke;
 }
 
 
-#O7 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, whitesmoke;
+
+#chk7 {
+  position: absolute;
+  visibility: hidden;
 }
 
 #A7 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
   display: none;
-  }
+}
 
-#O7:hover #A7 {
+#chk7:checked~#A7 {
   display: block;
+}
+#chk7:checked~ * h1 {
+  color: whitesmoke;
 }
 
 
-#O8 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline, whitesmoke;
+
+#chk8 {
+  position: absolute;
+  visibility: hidden;
 }
 
 #A8 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
   display: none;
-  }
+}
 
-#O8:hover #A8 {
+#chk8:checked~#A8 {
   display: block;
 }
-
-
-#O9 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline,whitesmoke;
+#chk8:checked~ * h1 {
+  color: whitesmoke;
 }
-
-#A9 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  display: none;
-  }
-
-#O9:hover #A9 {
-  display: block;
-}
-
-
-#O10 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline,whitesmoke;
-}
-
-#A10 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  display: none;
-  }
-
-#O10:hover #A10 {
-  display: block;
-}
-
-
-#O11 {
-  position: relative;
-  z-index: 10;
-  margin: 10px;
-  text-decoration: underline,whitesmoke;
-}
-
-#A11 {
-  position: relative;
-  z-index: 60;
-  margin: 10px;
-  display: none;
-  }
-
-#O11:hover #A11 {
-  display: block;
-}
-
-
