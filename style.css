@@ -25,6 +25,12 @@ h3{
   font-size: .9vw;
 }
 
+h4 {
+  max-width:50%;
+  height:auto;
+  right: 0;
+}
+
 p{
   font-size: 1vw;
 }
